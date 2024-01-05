@@ -1,0 +1,56 @@
+#gameCanvas {
+    border: 10px solid black;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff7a;
+}
+
+#interactionBox {
+    position: absolute;
+    bottom: 150px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: calc(100% - 200px); 
+    height: 160px; 
+    background-color: white;
+    border: 3px solid black; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#interactionBox #interactionText {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 16px; 
+    text-align: center; 
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+#interactionBox .buttons-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+#interactionBox button {
+    font-family: 'Press Start 2P', monospace; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    padding: 10px 200px; 
+    margin: 0 10px; 
+    cursor: pointer; 
+    border: 2px solid black; 
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s; 
+    width: 100px; 
+}
+
+#interactionBox button:hover {
+    background-color: black; 
+    color: white;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>MMP Bern - Das Spiel</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <style>
+   
+
+
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="1200" height="800"></canvas>
+    <div id="interactionBox">
+        <p id="interactionText">Lust aufs Spiel?</p>
+        <div class="buttons-container">
+            <button id="yesBtn" onclick="handleSpecialInteraction('yes')">Ja</button>
+            <button id="noBtn" onclick="handleSpecialInteraction('no')">Nö</button>
+        </div>
+    </div>
+    
+    
+    <script src="game.js"></script>
+</body>
+</html>
